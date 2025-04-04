@@ -77,3 +77,40 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+
+
+
+# ⏱ Timer Management App (React Native)
+
+This is a **Timer Management App** built using **React Native**, designed to help users create and manage multiple categorized timers with ease. Each timer tracks its own countdown, supports start/pause/reset functionality, and offers category-based bulk actions.
+
+## 🚀 Features
+
+- 📦 **Persistent Timers**: Stores and retrieves timers using `AsyncStorage`.
+- 🧩 **Categorized Grouping**: Group timers under custom categories.
+- 🔃 **Start / Pause / Reset**: Manage each timer individually.
+- ✅ **Bulk Actions**: Start, pause, or reset all timers within a category.
+- 📉 **Live Countdown**: Timers count down every second in real-time.
+- 📊 **Visual Progress**: Uses progress bars to indicate remaining time.
+- 🎨 **Modern UI**: Clean design with modal for adding timers and animated toggles.
+
+---
+
+## 🧱 Tech Stack
+
+- ⚛️ **React Native**
+- 🧠 **React Hooks**
+- 🗃 **AsyncStorage**
+- 🎨 **React Native Paper**
+- 🎛 **FlatList**
+- 💅 **Custom Styling**
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/NarriTrail/TimerFlow.git
+   cd TimerFlow
